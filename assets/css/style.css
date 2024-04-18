@@ -1,0 +1,28 @@
+--root{
+    /*PALETA DE COLORES */
+    --bg-div-color:#700b97;
+    --bg-div-color-sec:#8e05c2;
+    --bg-div-color-op: #ffae00;
+    --bg-div-color-ch: #ff3300;
+}
+
+
+/*etiqueta main como excepcion*/
+body{
+    margin: 0;
+    background-color: #666;
+    height: 250svh;
+    border: 2px solid white;
+}
+
+/*dentro del body, un conjunto de elementos div
+que comparten (x el simbolo >) un estilo particular 
+(LUEGO SE MOVIO DE BODY A MAIN)
+
+body > div {
+    height: 500px;
+    aspect-ratio: 1;
+    border-radius: 30px;
+    border: 1px solid white;
+
+}
