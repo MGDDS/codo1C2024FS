@@ -5,7 +5,27 @@
     --bg-div-color-op: #ffae00;
     --bg-div-color-ch: #ff3300;
 }
+main {
+    background-color: var(--color-base-yellow);
+    color: var(--color-base-gray-sec);
+    
+    /*font-size:16 px;*/
+    font-family: var(--font-family);
+    font-size: 16px;  
+}
 
+main .imagen-pizzaportada{
+    width: 200vw;
+}
+
+main p{
+    /*font-family: var(--font-family);*/
+    font-family: var(--font-family);
+    /*font-size:80%; rel a los 16 d su padre prox */
+    /*font-size:1 rem;*/
+    /*font-size:2 en; relativa a su padre prox*/
+    font-size:80%;
+}
 
 /*etiqueta main como excepcion*/
 body{
@@ -13,6 +33,12 @@ body{
     background-color: #666;
     height: 250svh;
     border: 2px solid white;
+
+  /*  <img src="/assets/images/pizzaPortada.jpg" alt="">
+    background-image: url('/assets/images/pizzaPortada.jpg');*/
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
 }
 
 /*dentro del body, un conjunto de elementos div
@@ -26,3 +52,4 @@ body > div {
     border: 1px solid white;
 
 }
+
