@@ -1,13 +1,8 @@
---root{
-    /*PALETA DE COLORES */
-    --bg-div-color:#700b97;
-    --bg-div-color-sec:#8e05c2;
-    --bg-div-color-op: #ffae00;
-    --bg-div-color-ch: #ff3300;
-}
+
+
 body{
     margin: 0;
-    background-color: var(--bg-div-color-op);
+    background-color: #ffae00;
     border: 2px solid white;
     height: 250svh;
 
@@ -27,6 +22,119 @@ body{
     ;
 }
 
+.grid-item1{
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+      
+        &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65);
+        }
+        
+}
+
+
+.grid-item2 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+        &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item3 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item4 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item5 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item6 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item7 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item8 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
+.grid-item9 {
+    
+    padding: 20px;
+    text-align: center;
+    color: transparent;
+    border: 2px solid white;
+    &:hover{
+        color: black;
+        font-weight: bold;
+        font-size: 2em;
+        background-color: rgb(241, 212, 65) }
+}
 main {
     padding: 1rem;
     display: grid;
@@ -55,6 +163,8 @@ main > div {
 main> div:nth-child(1) {
     grid-area: uno;
     background-image:  url("https://betos.com.ar/wp-content/uploads/2019/08/pizza-muzarella.png");
+    
+    
 }
 
 
@@ -100,7 +210,7 @@ main> div:nth-child(9) { /*4 estaciones*/
     background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR1vet5B73qwfyRySWG4DWMwm53pI8K3tuS3bdYDiMg&s");
 }
 
-main> div:nth-child(10) { /*4 estaciones*/
+main> div:nth-child(10) { 
     grid-area: diez;
     background-image:  url("https://media-cdn.tripadvisor.com/media/photo-s/19/f2/c3/0b/docena-de-empanadas-de.jpg");
 }
