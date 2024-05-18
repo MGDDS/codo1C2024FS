@@ -5,24 +5,102 @@
     --bg-div-color-op: #ffae00;
     --bg-div-color-ch: #ff3300;
 }
-
-
-/*etiqueta main como excepcion*/
 body{
     margin: 0;
-    background-color: #666;
-    height: 250svh;
+    background-color: var(--bg-div-color-op);
     border: 2px solid white;
+    height: 250svh;
+
+}
+.container {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* grid-template-columns: 3fr; */
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve"
+    "diez diez diez"
+    ;
 }
 
-/*dentro del body, un conjunto de elementos div
-que comparten (x el simbolo >) un estilo particular 
-(LUEGO SE MOVIO DE BODY A MAIN)
-
-body > div {
-    height: 500px;
+main {
+    padding: 1rem;
+    display: grid;
+    /* grid-template-columns: 3fr; */
+    grid-template-rows: 3fr;
+    gap: 1rem; /*separacion entre fotos*/
+    background-size: contain;
+    
+}
+main > div {
+    height: 200px;
     aspect-ratio: 1;
-    border-radius: 30px;
-    border: 1px solid white;
+    border-radius: 30px ;
+    border: 1px solid rgb(78, 58, 58);
+    margin: 1rem;
+    flex-grow: 2;
+    transition: all 1s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:hover{
+        background-size: contain;
+    }
+}
 
+main> div:nth-child(1) {
+    grid-area: uno;
+    background-image:  url("https://betos.com.ar/wp-content/uploads/2019/08/pizza-muzarella.png");
+}
+
+
+main> div:nth-child(2) {
+    grid-area: dos;
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMEUunwweO39QwZ7zHdoTFeENcEMGxgaowMrBsQVqGew&s"
+    );
+}
+
+main> div:nth-child(3) {
+    grid-area: tres;
+    background-image:  url("https://i.pinimg.com/736x/e1/21/f7/e121f74358388b8d0e9d4f094115bd89.jpg" );
+}
+
+main> div:nth-child(4) {
+    grid-area: cuatro;
+    background-image:  url("https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1002845.jpg"
+    );
+}
+
+main> div:nth-child(5) {
+    grid-area: cinco;
+    background-image:  url("https://www.laalemanacomidas.com.ar/wp-content/uploads/2020/04/4I4TBI4E35D3BPWNGMVZ6ZRJMY.jpg");
+}
+
+main> div:nth-child(6) {
+    grid-area: seis;
+    background-image:  url("https://media-cdn.tripadvisor.com/media/photo-s/03/40/08/5f/bardpizzas.jpg");
+}
+
+main> div:nth-child(7) {
+    grid-area: siete;
+    background-image:  url("https://storage.googleapis.com/fitia-api-bucket/media/images/recipe_images/1002842.jpg");
+}
+
+main> div:nth-child(8) { /*romana*/
+    grid-area: ocho;
+    background-image:  url("https://lafinapizza.com/cdn/shop/files/rumana_2_4fb8dc4b-e1f2-475a-bf7a-b5bc108213a7.jpg?v=1685732412");
+}
+
+main> div:nth-child(9) { /*4 estaciones*/
+    grid-area: nueve;
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxR1vet5B73qwfyRySWG4DWMwm53pI8K3tuS3bdYDiMg&s");
+}
+
+main> div:nth-child(10) { /*4 estaciones*/
+    grid-area: diez;
+    background-image:  url("https://media-cdn.tripadvisor.com/media/photo-s/19/f2/c3/0b/docena-de-empanadas-de.jpg");
 }
