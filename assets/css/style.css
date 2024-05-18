@@ -31,10 +31,10 @@ main p{
 body{
     margin: 0;
     background-color: #666;
-    height: 250svh;
+    height: 100svh;
     border: 2px solid white;
 
-  /*  <img src="/assets/images/pizzaPortada.jpg" alt="">
+  /*  <img src="/assets/images/pizzaPortada.jpg" alt="">*/
     background-image: url('/assets/images/pizzaPortada.jpg');
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -54,4 +54,14 @@ body > div {
     border: 1px solid white;
 
 }
+*/
 
+.titulo{
+    color: red;
+    font-size: 3em;
+}
+
+.leyenda1{
+    color: orange;
+    font-weight: bold;
+}
