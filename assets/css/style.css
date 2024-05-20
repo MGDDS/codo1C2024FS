@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
 --root{
     /*PALETA DE COLORES */
     --bg-div-color:#700b97;
     --bg-div-color-sec:#8e05c2;
     --bg-div-color-op: #ffae00;
     --bg-div-color-ch: #ff3300;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #ff3300;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.navbar a {
+    color: black;
+    text-decoration: solid;
+    font-weight: bolder;
+    padding: 40px 40px ;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Poller One";
+    font-size: 18px;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #eb860b;
+}
+.navbar li{
+    display: inline-block;
+    
 }
 main {
     background-color: var(--color-base-yellow);
