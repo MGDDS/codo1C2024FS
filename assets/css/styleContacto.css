@@ -6,9 +6,122 @@
     --bg-div-color-ch: #ff3300;
 }
 
+body {
+    background-color: #ffae00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 1.5em;
+}
+
+.form-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.box {
+    background-color: aliceblue;
+    color: #ffae00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.box p {
+    margin-bottom: 1em;
+}
+
+.box button {
+    background-color: #f8e9c2;
+    color: #ffae00;
+    font-weight: 700;
+    padding: 0.7em 1.5em;
+    border: 0.5px solid #ffae00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background-color: #ffae00;
+    color: #f8e9c2;
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+.agrupar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, 
+form button, 
+form textarea {
+    color: #ffae00;
+    width: 100%;
+    padding: 0.7em;
+    border: 0.5px solid #ffae00;
+    border-radius: 10px;
+    background: none;
+}
+
+form button {
+    background-color: #f8e9c2;
+    font-weight: 700;
+    padding: 1em;
+}
+
+form button:hover {
+    background-color: #ffae00;
+    color: #f8e9c2;
+}
+
+.formulario {
+    box-shadow: 0 0 20px 0 rgba(255, 174, 0, 0.2);
+}
+
+.formulario > * {
+    padding: 1.5em;
+}
+
+.centro{
+    background-color: #fcf9f3;
+    border: 1px solid #ffae00;
+    border-radius: 10px;
+    padding: 1.5em;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input{
+    margin-right: 0.5em;
+}
+
 
 /*etiqueta main como excepcion*/
-body{
+/* body{
     margin: 0;
     background-color: #666;
     height: 250svh;
@@ -25,4 +138,4 @@ body > div {
     border-radius: 30px;
     border: 1px solid white;
 
-}
+} */
