@@ -58,11 +58,11 @@ body{
     border: 2px solid white;
       
         &:hover{
-        color: rgb(248, 246, 246);
+        color: rgb(4, 4, 4);
         font-weight: bold;
         font-size: 2em;
         background-color: rgb(241, 212, 65);
-        filter: brightness(50%);
+        
         }
         
 }
@@ -99,7 +99,7 @@ body{
     color: transparent;
     border: 2px solid white;
     &:hover{
-        color: black;
+        color: rgb(2, 2, 2);
         font-weight: bold;
         font-size: 2em;
         background-color: rgb(241, 212, 65) }
@@ -111,7 +111,7 @@ body{
     color: transparent;
     border: 2px solid white;
     &:hover{
-        color: black;
+        color: white;
         font-weight: bold;
         font-size: 2em;
         background-color: rgb(241, 212, 65) }
@@ -170,6 +170,7 @@ body{
     text-align: center;
     color: transparent;
     border: 2px solid white;
+    width: 1000px;
     &:hover{
         color: black;
         font-weight: bold;
@@ -177,7 +178,7 @@ body{
         background-color: rgb(241, 212, 65) }
 }
 main {
-    padding: 1rem;
+    padding: 10rem;
     display: grid;
     /* grid-template-columns: 3fr; */
     grid-template-rows: 3fr;
@@ -255,3 +256,4 @@ main> div:nth-child(10) {
     grid-area: diez;
     background-image:  url("https://media-cdn.tripadvisor.com/media/photo-s/19/f2/c3/0b/docena-de-empanadas-de.jpg");
 }
+
