@@ -88,6 +88,7 @@ body > div {
 */
 
 .titulo{
+    padding-left: 10%;
     color: red;
     font-size: 3em;
 }
@@ -98,6 +99,7 @@ body > div {
 }
 
 .container {
+    padding-right: 10%;
     background-color: transparent;
     display: inline-flex;
     box-sizing: border-box;
@@ -112,7 +114,6 @@ body > div {
 .item1 {
     align-items: center;
     background-color: transparent;
-    
     display: flex;
     flex: 3;
     padding: 100px;
