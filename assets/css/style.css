@@ -95,3 +95,26 @@ body > div {
     color: orange;
     font-weight: bold;
 }
+
+.container {
+    background-color: blue;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+.item1 {
+    background-color: azure;
+}
+.item2 p{
+    align-items: flex-start;
+    font-size: 16px;
+    
+}
+
+.item2 {
+    position: relative;
+    left: 50px;
+}
+
