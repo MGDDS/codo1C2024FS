@@ -65,7 +65,7 @@ body{
     border: 2px solid white;
 
   /*  <img src="/assets/images/pizzaPortada.jpg" alt="">*/
-    background-image: url('/assets/images/pizzaPortada.jpg');
+    background-image: url('/assets/images/pizzaPortada.jpg') !important;
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen en el fondo */
