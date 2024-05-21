@@ -103,7 +103,7 @@ body > div {
     box-sizing: border-box;
     flex-wrap: nowrap;
     align-content: end;
-    height: 40vw;
+    height: 25vw;
     width: 100vw;
     justify-content: space-around;
     column-gap: 20px;
@@ -136,7 +136,7 @@ body > div {
 
 .item2 p{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     text-wrap: wrap;
     text-align: center;
