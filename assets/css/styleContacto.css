@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
 --root{
     /*PALETA DE COLORES */
     --bg-div-color:#700b97;
@@ -5,7 +7,6 @@
     --bg-div-color-op: #ffae00;
     --bg-div-color-ch: #ff3300;
 }
-
 .navbar ul{
     list-style-type: none;
     background-color: #ff3300;
@@ -32,8 +33,6 @@
 }
 .navbar li{
     display: inline-block;
-    
-
 body {
     background-color: #ffae00;
     font-family: "Poppins", sans-serif;
