@@ -7,6 +7,7 @@
     --bg-div-color-op: #ffae00;
     --bg-div-color-ch: #ff3300;
 }
+
 .navbar ul{
     list-style-type: none;
     background-color: #ff3300;
@@ -16,6 +17,7 @@
     text-align: center;
 
 }
+
 .navbar a {
     color: black;
     text-decoration: solid;
@@ -28,11 +30,15 @@
     font-size: 18px;
     text-align: center;
 }
+
 .navbar a:hover{
-    background-color: #eb860b;
+    background-color: #eb860b;   
 }
+
 .navbar li{
     display: inline-block;
+}
+
 body {
     background-color: #ffae00;
     font-family: "Poppins", sans-serif;
